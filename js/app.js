@@ -1,7 +1,7 @@
 'use strict';
-import { default as Codes } from './countries_code.js';
-import { UI } from './ui.js';
-import Weather from './weather.js';
+import { default as Codes } from 'countries_code.js';
+import { UI } from 'ui.js';
+import Weather from 'weather.js';
 
 let weather = new Weather('Stockholm', 'SE');
 const ui = new UI();
