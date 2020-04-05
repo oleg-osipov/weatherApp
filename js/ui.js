@@ -22,7 +22,7 @@ export class UI {
       weatherData.main.temp
     )} <span>&#176;</span>C`;
     //Img
-    let iconurl = `http://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    let iconurl = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     this.img.setAttribute('src', iconurl);
     //Humidity
     this.humidity.textContent = `Relative Humidity: ${weatherData.main.humidity}%`;

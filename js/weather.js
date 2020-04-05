@@ -13,7 +13,7 @@ export default class Weather {
 
     //Current Weather
     const response = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${this.city},${this.country}&APPID=${this.key}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${this.city},${this.country}&APPID=${this.key}&units=metric`
     );
 
     const responseData = await response.json();
