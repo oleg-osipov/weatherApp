@@ -9,7 +9,6 @@ const ui = new UI();
 //Display weather data event
 document.addEventListener('DOMContentLoaded', showWeather);
 
-//Clear inputs event
 
 //Change location event
 document.getElementById('w-changeButton').addEventListener('click', (e) => {
@@ -33,8 +32,6 @@ document.getElementById('w-changeButton').addEventListener('click', (e) => {
   //close form
   $('#locationModal').modal('hide');
 });
-
-function showCountryName() {}
 
 function showWeather() {
   weather
