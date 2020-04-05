@@ -1,0 +1,6 @@
+:root {
+  --bg-primary-light: #dbe6e2;
+}
+.bg-primary-light {
+  background-color: var(--bg-primary-light);
+}
